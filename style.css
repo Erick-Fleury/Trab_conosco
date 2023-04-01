@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: #e20f0f;
+  padding: 10px 15px;
+}
+
+.logo-Fla {
+  width: 100px;
+}
+.logo-mascote {
+  width: 110px;
+}
+
+h1,
+h4,
+p {
+  text-align: center;
+}
+h1,
+h4,
+p {
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: #ffffff;
+  background-image: url(img/desktop-wallpaper-organizacao-de-volta-do-flamengo-ao-maracana-surpreende-torcida-maracana.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+.formulário {
+  display: grid;
+  background-color: #e3d5d5;
+  padding: 10px 15px;
+  width: 800px;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.Buttons {
+  display: flex;
+  gap: 5px;
+}
+.Botaoheader {
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 20px;
+  border-color: #d6d4d4;
+  padding: 8px 13px;
+  cursor: pointer;
+  transition: 0.5s;
+  font: 300;
+}
+.Botaoheader:hover {
+  border-color: black;
+}
+.Tituloforms {
+  text-align: left;
+  color: black;
+}
+
+.botaosubmeter {
+  display: flex;
+  gap: 10px;
+  padding: 8px 13px;
+  border-radius: 10px;
+  background-color: black;
+  color: #e20f0f;
+}
+.areatexto {
+  width: 350px;
+}

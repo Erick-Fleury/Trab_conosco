@@ -13,9 +13,11 @@ header {
 
 .logo-Fla {
   width: 100px;
+  cursor: pointer;
 }
 .logo-mascote {
   width: 110px;
+  cursor: pointer;
 }
 
 h1,
@@ -45,14 +47,15 @@ body {
   align-items: center;
   font-family: "Times New Roman", Times, serif;
   border-radius: 8px;
+  border: 2px solid black;
 }
 .Buttons {
   display: flex;
   gap: 5px;
 }
 .Botaoheader {
-  background-color: transparent;
-  border-radius: 4px;
+  background-color: whitesmoke;
+  border-radius: 5px;
   font-size: 20px;
   border-color: #d6d4d4;
   padding: 8px 13px;
